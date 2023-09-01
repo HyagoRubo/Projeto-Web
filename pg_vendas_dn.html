@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style_pg_vendas.css">
+</head>
+<body>
+
+    <!--Aqui começa o Header-->
+
+    <header class="max-width bg" id="Home">
+            <div class="container">
+                <nav class="menu">
+                    <div id="logo"></div>
+                    <div class="desktop-menu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="pg_vestuario.html">Vestuario</a></li>
+                            <li><a href="#">Tênis</a></li>
+                            <li><a href="bolas.html">Bolas</a></li>
+                            <li><a href="#">Jaquetas</a></li>
+                            <li><a href="#">Lançamentos</a></li>
+                            <li><a href="#">Contatos</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="mobile-menu" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                        <ul id="myLinks">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="pg_vestuario.html">Vestuario</a></li>
+                            <li><a href="#">Tênis</a></li>
+                            <li><a href="bolas.html">Bolas</a></li>
+                            <li><a href="#">Jaquetas</a></li>
+                            <li><a href="#">Lançamentos</a></li>
+                            <li><a href="#">Contatos</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="list_prod">
+                    <div class="product">
+                        <a href=""><img src="image/denver - 3.png" alt="Product 4"></a>
+
+                        <div class="text_prod_r">
+                            <h3>FRETE GRÁTIS</h3>
+                            <h4 id="pr"><s>R$ 799,90</s></h4>
+                            <h1 class="preço">R$ 599,99</h1>
+                            <h2 class="parcelamento">ou R$ 59,99 em até 10x sem juros </h2>
+                            <br>
+                            <p>Vendido e Enviado por <strong>Dunker's</strong></p>
+                            <h4>Tamanhos:</h4>
+                            <button class="tm">PP</button>
+                            <button class="tm">P</button>
+                            <button class="tm">M</button>
+                            <button class="tm">G</button>
+                            <button class="tm">GG</button>
+                            <br>
+                            <div class="cep">
+                                <h4>Consulte o prazo de entrega:</h4>
+                                <input type="text" id="cepInput" placeholder="Digite o CEP">
+                                <button id="searchButton">Consultar</button>
+                                <div id="result"></div>
+                            </div>
+                            <button class="comprar">COMPRAR</button>
+                        </div>    
+
+                        <div class="text_prod_l">
+                            <a href=""><h1>Regata NBA Nike Denver Nuggets Dri-Fit
+                            </h1></a>
+                            <br>
+                            <p><strong>Ref.</strong>:2IC-8880-C69-02</p>
+                            <br>
+                            <p><strong>Gola:</strong> Gola "v" </p>
+                            <p><strong>Indicado para:</strong> Dia a Dia</p>
+                            <p><strong>Material:</strong> Poliéster</p> 
+                            <p><strong>Time/Atleta:</strong> Denver Nuggets</p> 
+                            <p><strong>Manga:</strong> Regata </p>
+                            <p><strong>Composição:</strong> 100% Poliéste. 
+                            <p><strong>Dimensões Aproximadas:</strong> Medidas da Peça ( Tamanho M) - Ombro: 40 cm, Tórax: 120 cm, Comprimento: 80 cm.</p> 
+                            <p><strong>Tecnologia:</strong> Dri-Fitr</p>
+                            <br>
+                            <a class="ver_mais" href="#descricao">Ver mais</a>
+                            <h4>Comprartilhe nosso produto!</h4>
+                            <div class="social">
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-facebook"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="ts">Mais Vistos</h2>
+                <div class="outros">
+                    <div class="prod_outros">
+                        <a href=""><img src="image/bol-removebg-preview.png"></a>
+                        <a href=""><h3>Bola de Basquete Wilson NBA DVR Pro #7 - Marrom</h3></a>
+                        <h5>FRETE GRÁTIS</h5>
+                        <p class="preço">R$ 219,90</p>
+                        <p class="parcelamento">ou 4x de R$ 54,97</p>
+                        <button>Adicionar ao Carrinho</button>
+                    </div>
+
+                    <div class="prod_outros">
+                        <a href=""><img src="image/lakers - 4.png" alt="Product 4"></a>
+                        <a href=""><h3>Regata NBA Nike Los Angeles Lakers Dri-Fit</h3></a>
+                        <h5>FRETE GRÁTIS</h5>
+                        <p class="preço">R$ 599,99</p>
+                        <p class="parcelamento">ou 10x de R$59,99</p>
+                        <button>Adicionar ao Carrinho</button>
+
+                    </div>
+
+                    <div class="prod_outros">
+                        <a href=""><img src="bolas/bl11-removebg-preview.png" alt="Product 4"></a>
+                        <a href=""><h3>Bola de Basquete Wilson NBA Tiedye - Vermelho</h3></a>
+                        <h5>FRETE GRÁTIS</h5>
+                        <p class="preço">R$ 169,90</p>
+                        <p class="parcelamento">ou 2x de R$ 84,95</p>
+                        <button>Adicionar ao Carrinho</button>
+                    </div>
+
+                    <div id="f" class="prod_outros">
+                        <a href=""><img src="image/grizzlies_-_5.png" alt="Product 4"></a>
+                        <a href=""><h3>Regata NBA Nike Memphis Grizzlies Dri-Fit</h3></a>
+                        <h5>FRETE GRÁTIS</h5>
+                        <p class="preço">R$ 599,99</p>
+                        <p class="parcelamento">ou 10x de R$59,99</p>
+                        <button>Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+
+                <h2 class="ts2">É do seu gosto? Então veja estes produtos similares</h2>
+                <div class="outros">
+                    <div class="prod_outros">
+                        <a href=""><img src="image/denver - 3.png" alt="Product 4"></a>
+                        <a href=""><h3>Regata NBA Nike Denver Nuggets Dri-Fit</h3></a>
+                        <h5>FRETE GRÁTIS</h5>
+                        <p class="preço">R$ 599,99</p>
+                        <p class="parcelamento">ou 10x de R$59,99</p>
+                        <button>Adicionar ao Carrinho</button>
+                    </div>
+
+                    <div class="prod_outros">
+                        <a href=""><img src="image/boston-_12.png" alt="Product 4"></a>
+                        <a href=""><h3>Regata NBA Nike Boston Celtics Dri-Fit</h3></a>
+                        <h5>FRETE GRÁTIS</h5>
+                        <p class="preço">R$ 599,99</p>
+                        <p class="parcelamento">ou 10x de R$59,99</p>
+                        <button>Adicionar ao Carrinho</button>
+                    </div>
+
+                    <div class="prod_outros">
+                        <a href=""><img src="image/warriors-7.png" alt="Product 4"></a>
+                        <a href=""><h3>Regata NBA Nike Golden State Warriors Dri-Fit</h3></a>
+                        <h5>FRETE GRÁTIS</h5>
+                        <p class="preço">R$ 599,99</p>
+                        <p class="parcelamento">ou 10x de R$59,99</p>
+                        <button>Adicionar ao Carrinho</button>
+                    </div>
+
+                    <div id="f" class="prod_outros">
+                        <a href=""><img src="image/phila-_10.png" alt="Product 4"></a>
+                        <a href=""><h3>Regata NBA Nike Philadelphia 76ERS Dri-Fit</h3></a>
+                        <h5>FRETE GRÁTIS</h5>
+                        <p class="preço">R$ 599,99</p>
+                        <p class="parcelamento">ou 10x de R$59,99</p>
+                        <button>Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+
+                <div id="descricao">
+                    <h1>Descrição</h1>
+                    <h4>Seja para jogar sua partida de basquete ou para um lifestyle esportivo, a Regata NBA Nike Atlanta Hawks Dri-Fit Masculina é a escolha para mais atitude e conforto. É confeccionada em material macio e respirável, com tecnologia que afasta suor e mantém e pele seca por mais tempo. Conta com ótimo caimento no corpo, escudo dos Hawks em destaque e número do Young nas costas. Mostre sua paixão pelo basquete usando essa camiseta masculina NBA junto com um tênis de basquete. Invista!</h4>
+                    <div class="detalhes">
+                        <p>
+                            <strong> Nome:</strong> Regata NBA Nike Denver Nuggets Dri-Fit <br>
+                            <strong> Gênero:</strong> Masculino <br>
+                            <strong> Gola:</strong> Gola "v" <br>
+                            <strong> Indicado para:</strong> Dia a Dia <br>
+                            <strong>Material:</strong> Poliéster <br>
+                            <strong>Time/Atleta:</strong> Denver Nuggets
+                        </p>
+                        <p>
+                            <strong> Manga:</strong> Regata <br>
+                            <strong>Composição:</strong> 100% Poliéster <br>
+                            <strong>Dimensões Aproximadas:</strong> Medidas da Peça ( Tamanho M) - Ombro: 40 cm, Tórax: 120 cm, Comprimento: 80 cm <br>
+                            <strong>Tecnologia:</strong> Dri-Fit
+                        </p>
+                        <p>
+                            <strong>Definição da Tecnologia:</strong> Tecido de desempenho que afasta o suor da pele para ajudá-lo a se manter seco e confortável. <br>
+                            <strong>Garantia do Fabricante:</strong> Contra defeito de fabricação <br>
+                            <strong>Origem:</strong> Estrangeira - Adquirida no mercado interno <br>
+                            <strong>Marca:</strong> Nike
+                        </p>
+                    </div>
+                </div>
+            
+    </header>
+
+    <!--Aqui Termina o Header-->
+
+    <!--Aqui Começa o footer-->
+
+    <footer class="max-width bg">
+        <div class="container">
+            <img src="image/logoooo.png" alt="">
+            <p class="text-pq">Copyright © 2023 <span class="color-laranja">FRONT</span> All Rights Reserved</p>
+            <p class="text-pq">Tel: 13 5898-5874</p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+
+        // Menu-Mobile
+
+       function myFunction() {
+            var x = document.getElementById("myLinks");
+            var img = document.getElementById("logo")
+            if (x.style.display === "block") {
+                x.style.display = "none";
+                img.style.display = "block"
+            } else {
+                x.style.display = "block";
+                img.style.display = "none";
+            }
+
+
+}
+        // Scrollbar Personalizado
+
+            var btn = document.querySelector("#back-to-top");
+            btn.addEventListener("click", function() {
+                window.scrollTo(0, 0);
+            });
+    </script>
+</body>
+</html>
